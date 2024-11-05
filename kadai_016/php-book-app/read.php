@@ -70,7 +70,7 @@ try {
             <article class="books">
                 <h1>書籍一覧</h1>
 
-                <!-- PHPを書く（登録・編集・削除のパラメータ取得） -->
+                <!-- 登録・編集・削除後のmessageパラメータ取得時の処理 -->
                  <?php
                  if (isset($_GET['message'])) {
                     echo "<p class='success'>{$_GET['message']}</p>";
